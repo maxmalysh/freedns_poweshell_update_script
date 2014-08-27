@@ -2,12 +2,13 @@
 # This is a script I wrote for own use on Windows Server 2012R2.              #
 #                                                                             #
 # Don't forget to set your SHA key and email credentials.                     #
-# Leave "$sender_email" variable as is if you don't want to send emails.      #
+# Put empty line (it's "") into the "$sender_email" variable if you           #                    
+# don't want to send notifications.                                           #
 #                                                                             #
 # Please note that script requires administrator rights to run as it stores   #
 # data in registry.                                                           #
 #                                                                             #
-# iam@maxmalysh.com
+# iam@maxmalysh.com                                                           #
 ###############################################################################
 
 $asterics = ("*" * 120) + "`n"
